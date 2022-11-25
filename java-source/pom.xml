@@ -70,8 +70,13 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>iwayq-libs-release-local</name>
-        <url>http://18.207.136.250:8082/artifactory/iwayq-libs-release-local</url>
+        <name>a0nkexbz3qcff-artifactory-primary-0-releases</name>
+        <url>https://fragomen.jfrog.io/artifactory/iwayq-dev</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0nkexbz3qcff-artifactory-primary-0-snapshots</name>
+        <url>https://fragomen.jfrog.io/artifactory/iwayq-dev</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
