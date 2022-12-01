@@ -8,9 +8,9 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.iwayq</groupId>
+	<groupId>com-iwayq</groupId>
 	<artifactId>iwayQApp</artifactId>
-	<version>1.0-RELEASE</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<name>iwayQApp</name>
 	<description>iwayQ DevOps project for Spring Boot</description>
@@ -37,10 +37,6 @@
 			<scope>runtime</scope>
 		</dependency>
 		
-		
-		
-		
-		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -60,7 +56,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>Siva-iWayQ</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -68,11 +63,4 @@
 			</plugin>
 		</plugins>
 	</build>
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>a0nkexbz3qcff-artifactory-primary-0-releases</name>
-        <url>https://fragomen.jfrog.io/artifactory/iwayq-dev</url>
-    </repository>
-</distributionManagement>
 </project>
