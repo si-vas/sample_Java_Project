@@ -73,10 +73,5 @@
         <name>a0nkexbz3qcff-artifactory-primary-0-releases</name>
         <url>https://fragomen.jfrog.io/artifactory/iwayq-dev</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0nkexbz3qcff-artifactory-primary-0-snapshots</name>
-        <url>https://fragomen.jfrog.io/artifactory/iwayq-dev</url>
-    </snapshotRepository>
 </distributionManagement>
 </project>
